@@ -2355,6 +2355,18 @@
 			color: #8cc9f0;
 		}
 
+		.icon.style6 {
+			color: #000;
+		}
+
+		.icon.style7 {
+			color: #e7c501;
+		}
+
+		.icon.style8 {
+			color: #333333;
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.icon.major:before {
