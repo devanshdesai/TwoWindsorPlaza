@@ -1,13 +1,5 @@
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
-
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
+@import "https://fonts.googleapis.com/css?family=Assistant";
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -34,7 +26,6 @@
 		quotes: none;
 	}
 
-	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
@@ -1624,10 +1615,10 @@
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #051A38 15%, #748AA8 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #051A38 15%, #748AA8 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #051A38 15%, #748AA8 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #051A38 15%, #748AA8 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #051A38 15%, #839DA7 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #051A38 15%, #839DA7 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #051A38 15%, #839DA7 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #051A38 15%, #839DA7 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1649,7 +1640,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Assistant", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -3141,6 +3132,7 @@
 
 				#header.alt .logo img {
 					display: block;
+					width: 150px;
 					margin: 0 auto;
 					max-width: 75%;
 				}
