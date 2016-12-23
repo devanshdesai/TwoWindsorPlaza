@@ -39,6 +39,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.center-text {
+		text-align: center;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -3029,13 +3033,12 @@
 			padding: 0.65em;
 			border: solid 2px;
 			border-radius: 0px;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 
 			.spotlight .image img {
 				display: block;
-				width: 16em;
 				border-radius: 0px;
+				width: 100%;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3335,7 +3338,11 @@
 			z-index: 10000;
 		}
 		.logo-nav {
-			width: 50px;
+			width: 70px;
+		}
+		#nav-row {
+			margin-bottom: -10px;
+			display: inline-block;
 		}
 
 			#nav.alt ul li {
