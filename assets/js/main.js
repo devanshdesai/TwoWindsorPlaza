@@ -125,6 +125,10 @@
 
         }
 
+        $(document).ready(function() {
+            $('#image-carousel').slick();
+        });
+
         // Scrolly.
         $('.scrolly').scrolly({
             speed: 1000

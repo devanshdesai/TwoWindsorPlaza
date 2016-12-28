@@ -6,10 +6,12 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
 <body>
@@ -62,6 +64,11 @@
 				<h4 class="center-text">
 					7540 Windsor Drive<br>Allentown, PA 18195<br><a href="tel:610-395-2114">(610) 395-2114</a><br><a href="mailto:leasing@twowindsorplaza.com">leasing@twowindsorplaza.com</a>
 				</h4>
+				<div id="image-carousel">
+					<div><span class="image fit"><img class="carousel" src="images/camera/DSC_0040.JPG"></span></div>
+					<div><span class="image fit"><img class="carousel" src="images/camera/DSC_0040.JPG"></span></div>
+					<div><span class="image fit"><img class="carousel" src="images/camera/DSC_0040.JPG"></span></div>
+				</div>
 			</section>
 
 			<section id="first" class="main special">
@@ -100,12 +107,10 @@
 			<section id="second" class="main special">
 				<header class="major">
 					<h2>Location</h2>
-					<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br /> posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
 				</header>
-				<ul class="statistics">
+				<!--<ul class="statistics">
 					<li class="style1">
-						<span class="icon fa-code-fork"></span>
-						<strong>5,120</strong> Etiam
+						<strong>60 Minutes</strong>from Philadelphia
 					</li>
 					<li class="style2">
 						<span class="icon fa-folder-open-o"></span>
@@ -126,7 +131,7 @@
 				</ul>
 				<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam
 					porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac
-					risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+					risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>-->
 				<div id="map"></div>
 				<footer class="major">
 					<ul class="actions">
@@ -338,6 +343,7 @@
 		}
 	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDstsvAn8O7TgQ6WJ1_SE_0k1FYSB4Iyg0&libraries=places&callback=initMap" async defer></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 </body>
 
 </html>
