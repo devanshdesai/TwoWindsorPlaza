@@ -121,37 +121,37 @@
             $(this).lightGallery({
                 dynamic: true,
                 dynamicEl: [{
-                    'src': 'images/web/DSC_0040.JPG',
+                    'src': 'images/web/DSC_0040.jpg',
                     'downloadUrl': false
                 }, {
-                    'src': 'images/web/DSC_0045.JPG',
+                    'src': 'images/web/DSC_0045.jpg',
                     'downloadUrl': false
                 }, {
-                    "src": 'images/web/DSC_0090.JPG',
+                    "src": 'images/web/DSC_0090.jpg',
                     'downloadUrl': false
                 }, {
-                    "src": 'images/web/DSC_0063.JPG',
+                    "src": 'images/web/DSC_0063.jpg',
                     'downloadUrl': false
                 }, {
-                    "src": 'images/web/DSC_0104.JPG',
+                    "src": 'images/web/DSC_0104.jpg',
                     'downloadUrl': false
                 }, {
-                    "src": 'images/web/DSC_0106.JPG',
+                    "src": 'images/web/DSC_0106.jpg',
                     'downloadUrl': false
                 }, {
-                    'src': 'images/web/DSC_0066.JPG',
+                    'src': 'images/web/DSC_0066.jpg',
                     'downloadUrl': false
                 }, {
-                    'src': 'images/web/DSC_0049.JPG',
+                    'src': 'images/web/DSC_0049.jpg',
                     'downloadUrl': false
                 }, {
-                    "src": 'images/web/DSC_0057.JPG',
+                    "src": 'images/web/DSC_0057.jpg',
                     'downloadUrl': false
                 }, {
-                    "src": 'images/web/DSC_0071.JPG',
+                    "src": 'images/web/DSC_0071.jpg',
                     'downloadUrl': false
                 }, {
-                    "src": 'images/web/DSC_0035.JPG',
+                    "src": 'images/web/DSC_0035.jpg',
                     'downloadUrl': false
                 }]
             })
