@@ -2811,9 +2811,13 @@ body.is-loading #header.alt .logo {
     #nav #nav-row {
         display: none;
     }
-
     #nav+#main {
         padding-top: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    #nav {
+        max-width: calc(100% - 2em);
     }
 }
 #main {
