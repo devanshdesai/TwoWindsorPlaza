@@ -39,15 +39,11 @@ body {
 .center-text {
     text-align: center;
 }
-
-/* Box Model */
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-/* Grid */
 .row {
     border-bottom: solid 1px transparent;
     -moz-box-sizing: border-box;
@@ -1446,8 +1442,6 @@ body {
         margin-left: 8.33333%;
     }
 }
-
-/* Basic */
 @-ms-viewport {
     width: device-width;
 }
@@ -1476,8 +1470,6 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -ms-transition: none !important;
     transition: none !important;
 }
-
-/* Type */
 body {
     background-color: #935d8c;
     color: rgba(255, 255, 255, 0.65);
@@ -1644,8 +1636,6 @@ code {
 hr {
     border-bottom-color: rgba(255, 255, 255, 0.35);
 }
-
-/* Box */
 .box {
     border-radius: 8px;
     border: solid;
@@ -1663,8 +1653,6 @@ hr {
 .box {
     border-color: rgba(255, 255, 255, 0.35);
 }
-
-/* Button */
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -1744,8 +1732,6 @@ input[type="submit"].special:active, input[type="reset"].special:active, input[t
 input[type="submit"].special.icon:before, input[type="reset"].special.icon:before, input[type="button"].special.icon:before, button.special.icon:before, .button.special.icon:before {
     color: #ffffff !important;
 }
-
-/* Form */
 form {
     margin: 0 0 2em 0;
 }
@@ -1918,8 +1904,6 @@ input[type="checkbox"]:focus+label:before, input[type="radio"]:focus+label:befor
 .formerize-placeholder {
     color: rgba(255, 255, 255, 0.5) !important;
 }
-
-/* Icon */
 .icon {
     text-decoration: none;
     -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1994,6 +1978,12 @@ input[type="checkbox"]:focus+label:before, input[type="radio"]:focus+label:befor
 }
 .icon.style8 {
     color: #333333;
+}
+.icon.style9 {
+    color: #BAB4A5;
+}
+.icon.style10 {
+    color: #051A38;
 }
 @media screen and (max-width: 1680px) {
     .icon.major:before {
@@ -2227,8 +2217,6 @@ ul.alt li {
 dl dt {
     color: #ffffff;
 }
-
-/* Section/Article */
 section.special, article.special {
     text-align: center;
 }
@@ -2289,8 +2277,6 @@ footer.major {
 header.major h2:after {
     background-color: rgba(255, 255, 255, 0.35);
 }
-
-/* Table */
 .table-wrapper {
     -webkit-overflow-scrolling: touch;
     overflow-x: auto;
@@ -2357,8 +2343,6 @@ table tfoot {
 table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.35);
 }
-
-/* Features */
 .features {
     display: -moz-flex;
     display: -webkit-flex;
@@ -2414,15 +2398,13 @@ table.alt tbody tr td {
         margin-top: 2em;
     }
 }
-
-/* Statistics */
 .statistics {
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    width: 100%;
-    margin: 0 0 3em 0;
+    width: 55%;
+    margin: 0 0 3em 22.5%;
     padding: 0;
     list-style: none;
     cursor: default;
@@ -2432,9 +2414,10 @@ table.alt tbody tr td {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    padding: 1.5em;
+    padding: 0.25em 0.75em 0.25em 0.75em;
     color: #ffffff;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .statistics li.style1 {
     background-color: #efa8b0;
@@ -2451,6 +2434,15 @@ table.alt tbody tr td {
 .statistics li.style5 {
     background-color: #8cc9f0;
 }
+.statistics li.style9 {
+    background-color: #d3cfc5;
+}
+.statistics li img {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .statistics li strong, .statistics li b {
     display: block;
     font-size: 2em;
@@ -2462,6 +2454,7 @@ table.alt tbody tr td {
 .statistics li:first-child {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .statistics li:last-child {
     border-top-right-radius: 8px;
@@ -2481,20 +2474,12 @@ table.alt tbody tr td {
 }
 @media screen and (max-width: 736px) {
     .statistics {
-        display: block;
-        width: 20em;
-        max-width: 100%;
-        margin: 0 auto 2em auto;
+        width: 100%;
+        margin: 2em auto 2em auto;
     }
 
-    .statistics li:first-child {
-        border-bottom-left-radius: 0;
-        border-top-right-radius: 8px;
-    }
-
-    .statistics li:last-child {
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 8px;
+    .statistics li {
+        padding: 0 0.6em 0 0.6em;
     }
 
     .statistics li .icon:before {
@@ -2503,6 +2488,12 @@ table.alt tbody tr td {
 
     .statistics li strong, .statistics li b {
         font-size: 2.5em;
+    }
+
+    .statistics li img {
+        position: relative;
+        width: 100% !important;
+        transform: translateY(-50%);
     }
 }
 .spotlight {
@@ -2589,6 +2580,13 @@ table.alt tbody tr td {
     margin-left: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media screen and (max-width: 736px) {
+    #map {
+        margin-bottom: 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+}
 #header {
     padding: 5em 5em 1em 5em;
     text-align: center;
@@ -2601,7 +2599,7 @@ table.alt tbody tr td {
     letter-spacing: -0.025em;
 }
 #header.alt {
-    padding: 7em 5em 4em 5em;
+    padding: 2em 5em 1em 5em;
 }
 #header.alt h1 {
     font-size: 3.25em;
@@ -2748,6 +2746,7 @@ body.is-loading #header.alt .logo {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-top: -15px;
 }
 #nav ul li {
     -moz-transition: margin 0.2s ease;
@@ -2787,10 +2786,19 @@ body.is-loading #header.alt .logo {
     background-color: rgba(247, 247, 247, 0.95);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    z-index: 10000;
+    z-index: 999;
+}
+#lightgallery {
+    z-index: 1000;
+}
+#lightgallery a {
+    border-bottom: none;
+}
+#lightgallery a img {
+    display: none;
 }
 .logo-nav {
-    width: 70px;
+    width: 60px;
 }
 #nav-row {
     margin-bottom: -10px;
@@ -2811,8 +2819,6 @@ body.is-loading #header.alt .logo {
         padding-top: 0;
     }
 }
-
-/* Main */
 #main {
     background-color: #ffffff;
     color: #636363;
