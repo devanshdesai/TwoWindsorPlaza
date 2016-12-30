@@ -2561,15 +2561,7 @@ table.alt tbody tr td {
         margin-left: -50%;
         margin-top: 75px;
         margin-bottom: 1em;
-    }
-}
-@media screen and (max-width: 736px) {
-    .spotlight .image {
         width: 200%;
-    }
-
-    .spotlight .image img {
-        width: 100%;
     }
 }
 .spotlight .image {
