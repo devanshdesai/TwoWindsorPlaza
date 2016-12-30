@@ -2521,7 +2521,7 @@ table.alt tbody tr td {
 }
 .spotlight .image {
     display: inline-block;
-    margin-left: 4em;
+    margin-left: 2em;
     padding: 0.65em;
     border: solid 2px;
     border-radius: 0px;
@@ -2558,17 +2558,17 @@ table.alt tbody tr td {
         -webkit-flex: 0 1 auto;
         -ms-flex: 0 1 auto;
         flex: 0 1 auto;
-        margin-left: 0;
-        margin-bottom: 2em;
+        margin-left: -50%;
+        margin-bottom: 1em;
     }
 }
 @media screen and (max-width: 736px) {
     .spotlight .image {
-        padding: 0.35em;
+        width: 200%;
     }
 
     .spotlight .image img {
-        width: 12em;
+        width: 100%;
     }
 }
 .spotlight .image {
@@ -2599,7 +2599,7 @@ table.alt tbody tr td {
     letter-spacing: -0.025em;
 }
 #header.alt {
-    padding: 2em 5em 1em 5em;
+    padding: 2em 5em 0 5em;
 }
 #header.alt h1 {
     font-size: 3.25em;
@@ -2746,7 +2746,6 @@ body.is-loading #header.alt .logo {
     margin: 0;
     padding: 0;
     list-style: none;
-    margin-top: -15px;
 }
 #nav ul li {
     -moz-transition: margin 0.2s ease;
@@ -2788,14 +2787,11 @@ body.is-loading #header.alt .logo {
     border-top-right-radius: 0;
     z-index: 999;
 }
-#lightgallery {
-    z-index: 1000;
-}
-#lightgallery a {
-    border-bottom: none;
-}
-#lightgallery a img {
-    display: none;
+#full-gallery {
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-bottom: 25px;
 }
 .logo-nav {
     width: 60px;
@@ -3142,7 +3138,16 @@ body.is-loading #header.alt .logo {
 }
 #image-carousel div {
     display: inline-block;
-    width: 1000px;
+    width: 100%;
+}
+#image-carousel img {
+    display: inline-block;
+    width: 100%;
+}
+@media screen and (max-width: 1280px) {
+    #image-carousel {
+        margin-top: 25px;
+    }
 }
 .carousel {
     width: 100%;

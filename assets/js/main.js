@@ -101,8 +101,7 @@
                                 $nav_a.removeClass('active');
                                 $this.addClass('active');
 
-                            }
-                            else if ($this.hasClass('active-locked'))
+                            } else if ($this.hasClass('active-locked'))
                                 $this.removeClass('active-locked');
 
                         }
@@ -114,7 +113,49 @@
 
         $(document).ready(function() {
             $('#image-carousel').slick();
-            $("#lightgallery").lightGallery();
+
+
+        });
+
+        $('#full-gallery').on('click', function() {
+            $(this).lightGallery({
+                dynamic: true,
+                dynamicEl: [{
+                    'src': 'images/web/DSC_0040.JPG',
+                    'downloadUrl': false
+                }, {
+                    'src': 'images/web/DSC_0045.JPG',
+                    'downloadUrl': false
+                }, {
+                    "src": 'images/web/DSC_0090.JPG',
+                    'downloadUrl': false
+                }, {
+                    "src": 'images/web/DSC_0063.JPG',
+                    'downloadUrl': false
+                }, {
+                    "src": 'images/web/DSC_0104.JPG',
+                    'downloadUrl': false
+                }, {
+                    "src": 'images/web/DSC_0106.JPG',
+                    'downloadUrl': false
+                }, {
+                    'src': 'images/web/DSC_0066.JPG',
+                    'downloadUrl': false
+                }, {
+                    'src': 'images/web/DSC_0049.JPG',
+                    'downloadUrl': false
+                }, {
+                    "src": 'images/web/DSC_0057.JPG',
+                    'downloadUrl': false
+                }, {
+                    "src": 'images/web/DSC_0071.JPG',
+                    'downloadUrl': false
+                }, {
+                    "src": 'images/web/DSC_0035.JPG',
+                    'downloadUrl': false
+                }]
+            })
+
         });
 
         $('.scrolly').scrolly({
