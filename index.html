@@ -142,22 +142,22 @@
 					<p>For more general or leasing information, please fill out the form below, call, or email Two Windsor Plaza.</p>
 				</header>
 				<section>
-					<form method="post" action="#">
+					<form method="post" action="sendemail.php" target="_blank">
 						<div class="row uniform">
 							<div class="6u 12u$(xsmall)">
-								<input type="text" name="name" id="name" value="" placeholder="Name" />
+								<input type="text" name="name" id="name" value="" required="required" placeholder="Full Name" />
 							</div>
 							<div class="6u$ 12u$(xsmall)">
-								<input type="email" name="email" id="email" value="" placeholder="Email" />
+								<input type="email" name="email" id="email" value="" required="required" placeholder="Email Address" />
 							</div>
 							<div class="6u 12u$(xsmall)">
-								<input type="text" name="phone" id="phone" value="" placeholder="Phone" />
+								<input type="text" name="phone" id="phone" value="" required="required" placeholder="Phone Number" />
 							</div>
 							<div class="6u$ 12u$(xsmall)">
-								<input type="text" name="business-name" id="business-name" value="" placeholder="Business Name" />
+								<input type="text" name="business" id="business" value="" required="required" placeholder="Business Name" />
 							</div>
 							<div class="12u$">
-								<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								<textarea name="message" id="message" placeholder="Enter your message" required="required" rows="6"></textarea>
 							</div>
 							<div class="12u$">
 								<ul class="actions">
