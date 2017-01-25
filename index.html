@@ -159,7 +159,7 @@
 					<p>For more general or leasing information, please fill out the form below, call, or email Two Windsor Plaza.</p>
 				</header>
 				<section>
-					<form method="post" action="sendemail.php" target="_blank">
+					<form method="post" action="sendemail.php" target="_blank" name="contact-form">
 						<div class="row uniform">
 							<div class="6u 12u$(xsmall)">
 								<input type="text" name="name" id="name" value="" required="required" placeholder="Full Name" />
@@ -178,7 +178,7 @@
 							</div>
 							<div class="12u$">
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="special" /></li>
+									<li><input target="_blank" name="submit" type="submit" value="Send Message" class="special" required="required"/></li>
 									<li><input type="reset" value="Clear" /></li>
 								</ul>
 							</div>
