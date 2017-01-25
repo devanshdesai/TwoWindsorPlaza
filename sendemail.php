@@ -20,11 +20,11 @@ if (isset($_POST['submit']))
 
 if ( mail($to, $subject, $body, $from) && mail($userto, $usersubject, $userbody, $from) )
 {
-    echo "<p>Thank you. Your response was received. You can now close this tab.</p>";
+    echo "<script type='text/javascript' src='assets/js/receivedPage.js'></script>";
 }
 else
 {
-    echo "<p>Sorry, there was an error sending your response. Please try again. If the problem persits, please contact Two Windsor Plaza via another method.</p>";
+    echo "<script type='text/javascript' src='assets/js/failedPage.js'></script>";
 }
 
 ?>

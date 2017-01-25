@@ -1985,6 +1985,12 @@ input[type="checkbox"]:focus+label:before, input[type="radio"]:focus+label:befor
 .icon.style10 {
     color: #051A38;
 }
+.style11 {
+    color: #17c448;
+}
+.style12 {
+    color: #c41717;
+}
 @media screen and (max-width: 1680px) {
     .icon.major:before {
         font-size: 5.5rem;
@@ -3167,4 +3173,10 @@ body::-webkit-scrollbar-thumb {
 }
 ::-moz-selection {
     background: #BAB4A5;
+}
+#received {
+    display: none;
+}
+#failed {
+    display: none;
 }

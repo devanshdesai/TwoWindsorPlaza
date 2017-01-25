@@ -162,6 +162,18 @@
             speed: 1000
         });
 
+        function receivedShow() {
+            console.log("whats up!");
+            $("#contact-form").fadeOut();
+            $("#received").fadeIn();
+        }
+
+        function failedShow() {
+            console.log("whats up222!");
+            $("#contact-form").fadeOut();
+            $("#failed").fadeIn();
+        }
+
     });
 
 })(jQuery);
