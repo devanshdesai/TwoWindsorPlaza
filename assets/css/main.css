@@ -15,6 +15,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
     line-height: 1;
+    height: 100%;
+    background-attachment: fixed;
 }
 
 ol, ul {
@@ -2443,6 +2445,9 @@ table.alt tbody tr td {
 .statistics li.style9 {
     background-color: #d3cfc5;
 }
+.style10 {
+    background-color: #2a4e82;
+}
 .statistics li img {
     position: relative;
     width: 100%;
@@ -3175,8 +3180,15 @@ body::-webkit-scrollbar-thumb {
     background: #BAB4A5;
 }
 #received {
-    display: none;
+    position: fixed;
+    top: 45%;
+    bottom: 50%;
+    width: 50%;
+    left: 25%;
+    font-size: 1em;
+    display: block;
 }
-#failed {
-    display: none;
+#received a:hover, #received a {
+    text-decoration: none;
+    border: none;
 }
