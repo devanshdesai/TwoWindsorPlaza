@@ -146,9 +146,6 @@
                     "src": 'images/web/DSC_0057.jpg',
                     'downloadUrl': false
                 }, {
-                    "src": 'images/web/DSC_0071.jpg',
-                    'downloadUrl': false
-                }, {
                     "src": 'images/web/DSC_0035.jpg',
                     'downloadUrl': false
                 }]
