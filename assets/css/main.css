@@ -2823,6 +2823,11 @@ body.is-loading #header.alt .logo {
         max-width: calc(100% - 2em);
     }
 }
+@media screen and (max-width: 360px) {
+    #nav {
+        max-width: calc(100%);
+    }
+}
 #main {
     background-color: #ffffff;
     color: #636363;
@@ -3132,29 +3137,35 @@ body.is-loading #header.alt .logo {
         max-width: 100%;
     }
 }
-#image-carousel {
+.image-carousel {
     display: inline-block;
     margin-top: 50px;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-#image-carousel button {
+.image-carousel button {
     display: inline-block;
     color: #000;
     border: 0;
 }
-#image-carousel div {
+.image-carousel div {
     display: inline-block;
     width: 100%;
 }
-#image-carousel img {
+.image-carousel img {
     display: inline-block;
     width: 100%;
 }
 @media screen and (max-width: 1280px) {
-    #image-carousel {
+    .image-carousel {
         margin-top: 25px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .image-carousel {
+        width: 75%;
+        left: 2.5%;
     }
 }
 .carousel {

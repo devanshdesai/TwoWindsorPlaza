@@ -112,7 +112,7 @@
         }
 
         $(document).ready(function() {
-            $('#image-carousel').slick();
+            $('.image-carousel').slick();
         });
 
         $('#full-gallery').on('click', function() {
@@ -150,7 +150,6 @@
                     'downloadUrl': false
                 }]
             })
-
         });
 
         $('.scrolly').scrolly({
