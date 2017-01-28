@@ -1720,15 +1720,15 @@ input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="b
     color: rgba(255, 255, 255, 0.5);
 }
 input[type="submit"].special, input[type="reset"].special, input[type="button"].special, button.special, .button.special {
-    background-color: #8cc9f0;
+    background-color: #3b9abf;
     color: #ffffff !important;
     box-shadow: none;
 }
 input[type="submit"].special:hover, input[type="reset"].special:hover, input[type="button"].special:hover, button.special:hover, .button.special:hover {
-    background-color: #9acff2;
+    background-color: #2b6d87;
 }
 input[type="submit"].special:active, input[type="reset"].special:active, input[type="button"].special:active, button.special:active, .button.special:active {
-    background-color: #7ec3ee;
+    background-color: #2b6d87;
 }
 input[type="submit"].special.icon:before, input[type="reset"].special.icon:before, input[type="button"].special.icon:before, button.special.icon:before, .button.special.icon:before {
     color: #ffffff !important;
@@ -2868,15 +2868,15 @@ body.is-loading #header.alt .logo {
     color: rgba(99, 99, 99, 0.25);
 }
 #main input[type="submit"].special, #main input[type="reset"].special, #main input[type="button"].special, #main button.special, #main .button.special {
-    background-color: #8cc9f0;
+    background-color: #3b9abf;
     color: #ffffff !important;
     box-shadow: none;
 }
 #main input[type="submit"].special:hover, #main input[type="reset"].special:hover, #main input[type="button"].special:hover, #main button.special:hover, #main .button.special:hover {
-    background-color: #9acff2;
+    background-color: #2b6d87;
 }
 #main input[type="submit"].special:active, #main input[type="reset"].special:active, #main input[type="button"].special:active, #main button.special:active, #main .button.special:active {
-    background-color: #7ec3ee;
+    background-color: #2b6d87;
 }
 #main input[type="submit"].special.icon:before, #main input[type="reset"].special.icon:before, #main input[type="button"].special.icon:before, #main button.special.icon:before, #main .button.special.icon:before {
     color: #ffffff !important;
