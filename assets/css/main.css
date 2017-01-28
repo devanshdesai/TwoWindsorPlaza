@@ -3146,8 +3146,7 @@ body.is-loading #header.alt .logo {
 }
 .image-carousel button {
     display: inline-block;
-    color: #000;
-    border: 0;
+    color: #fff;
 }
 .image-carousel div {
     display: inline-block;

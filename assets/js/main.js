@@ -111,9 +111,7 @@
 
         }
 
-        $(document).ready(function() {
-            $('.image-carousel').slick();
-        });
+        $('.image-carousel').slick();
 
         $('#full-gallery').on('click', function() {
             $(this).lightGallery({
